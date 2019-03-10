@@ -8,17 +8,17 @@ package homework.singleton.hungry;
  * @author dongyue
  * @create 2019/03/10
  */
-public class HungrySingleton {
+public class HungryStaticSingleton {
 
-    public static final HungrySingleton hungrySingleton;
+    public static final HungryStaticSingleton hungrySingleton;
 
     static {
-        hungrySingleton = new HungrySingleton();
+        hungrySingleton = new HungryStaticSingleton();
     }
 
-    private HungrySingleton(){}
+    private HungryStaticSingleton(){}
 
-    public static HungrySingleton getInstance() {
+    public static HungryStaticSingleton getInstance() {
         return hungrySingleton;
     }
 }

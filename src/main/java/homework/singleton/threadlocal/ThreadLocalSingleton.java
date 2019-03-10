@@ -1,4 +1,4 @@
-package geektime.spring.data.mybatisdemo.gupao.singleton.threadlocal;
+package homework.singleton.threadlocal;
 
 public class ThreadLocalSingleton {
 

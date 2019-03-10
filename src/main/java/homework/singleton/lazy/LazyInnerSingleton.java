@@ -1,14 +1,17 @@
-package geektime.spring.data.mybatisdemo.gupao.singleton.lazy;
+package homework.singleton.lazy;
 
 public class LazyInnerSingleton {
 
-    private LazyInnerSingleton(){}
-
-    public static final LazyInnerSingleton getInstance() {
-        return null;
+    private LazyInnerSingleton(){
+        throw new RuntimeException("can't create multiple instance");
     }
 
-    private static class LazyHodle{
+    public static final LazyInnerSingleton getInstance() {
+        return LazyHolder.LAZY;
+    }
 
+    // 默认不加载
+    private static class LazyHolder{
+        private static final LazyInnerSingleton LAZY = new LazyInnerSingleton();
     }
 }

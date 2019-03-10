@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.singleton.test;
+package homework.singleton;
 
 import java.util.concurrent.*;
 

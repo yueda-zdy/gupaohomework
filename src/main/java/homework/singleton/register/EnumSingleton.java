@@ -1,4 +1,4 @@
-package geektime.spring.data.mybatisdemo.gupao.singleton.register;
+package homework.singleton.register;
 
 public enum  EnumSingleton {
     INSTANCE;

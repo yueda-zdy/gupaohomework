@@ -1,0 +1,12 @@
+/**/.project
+/**/.classpath
+/**/.settings/
+/**/target/
+/**/*.iml
+./*.iml
+**/*.iml
+.idea
+.DS_Store
+/tester/hsf-release/
+hsf-release/
+/logs/
