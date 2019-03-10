@@ -1,6 +1,9 @@
 package homework.singleton.register;
 
-public enum  EnumSingleton {
+/**
+ * 注册式单利模式
+ */
+public enum EnumSingleton {
     INSTANCE;
 
     private Object data;

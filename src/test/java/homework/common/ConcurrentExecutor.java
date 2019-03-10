@@ -1,4 +1,4 @@
-package homework.singleton;
+package homework.common;
 
 import java.util.concurrent.*;
 
